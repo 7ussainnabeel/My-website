@@ -17,7 +17,3 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
-
-width: 270px;
-height: 400px;
-padding: 20px;
