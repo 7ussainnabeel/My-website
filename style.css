@@ -483,19 +483,18 @@ section h3.section-subheading {
 }
 
 .timeline>li .timeline-image {
-    z-index: center;
+    z-index: 100;
     position: absolute;
-    left: 50%;
+    left: 0;
     width: 80px;
     height: 80px;
-    margin-left: -40px; /* Half of the width to center the image */
+    margin-left: 0;
     border: 7px solid #bebcbc;
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #fefefe;
+    background-color: #000000;
 }
-
 
 .timeline>li .timeline-image h4 {
     margin-top: 12px;
