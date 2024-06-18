@@ -485,16 +485,17 @@ section h3.section-subheading {
 .timeline>li .timeline-image {
     z-index: 100;
     position: absolute;
-    left: 0;
+    left: 50%;
     width: 80px;
     height: 80px;
-    margin-left: 0;
+    margin-left: -40px; /* Half of the width to center the image */
     border: 7px solid #bebcbc;
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #000000;
+    background-color: #fefefe;
 }
+
 
 .timeline>li .timeline-image h4 {
     margin-top: 12px;
@@ -858,7 +859,7 @@ body {
     webkit-tap-highlight-color: #1ee2e7;
 }
 .styled-image {
-    align:center;
+    box-align:center;
     width: 200px;
 	height: 200px;
 	border-radius: 9px;
