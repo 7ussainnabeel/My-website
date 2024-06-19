@@ -854,7 +854,9 @@ img::-moz-selection {
     background: 0 0;
 }
 
-
+body {
+    webkit-tap-highlight-color: #b8c6c6;
+}
 .styled-image {
     box-align:center;
     width: 200px;
